@@ -1,0 +1,11 @@
+api:
+  build: .
+  ports:
+    - "4567:80"
+  links:
+    - "db"
+  environment:
+    - DATABASE_HOST=localhost
+    - DATABASE_NAME=tango
+    - DATABASE_USER=tango
+    - DATABASE_PASSWORD=tango

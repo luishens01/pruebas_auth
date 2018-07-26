@@ -1,0 +1,16 @@
+current directory: /home/luis/Escritorio/auth-tests/omniauth-tutorial/vendor/bundle/ruby/2.5.0/gems/binding_of_caller-0.8.0/ext/binding_of_caller
+/usr/bin/ruby2.5 -r ./siteconf20180619-2267-1vmix0d.rb extconf.rb
+
+current directory: /home/luis/Escritorio/auth-tests/omniauth-tutorial/vendor/bundle/ruby/2.5.0/gems/binding_of_caller-0.8.0/ext/binding_of_caller
+make "DESTDIR=" clean
+make: *** No hay ninguna regla para construir el objetivo 'clean'.  Alto.
+
+current directory: /home/luis/Escritorio/auth-tests/omniauth-tutorial/vendor/bundle/ruby/2.5.0/gems/binding_of_caller-0.8.0/ext/binding_of_caller
+make "DESTDIR="
+echo "Nada."
+Nada.
+
+current directory: /home/luis/Escritorio/auth-tests/omniauth-tutorial/vendor/bundle/ruby/2.5.0/gems/binding_of_caller-0.8.0/ext/binding_of_caller
+make "DESTDIR=" install
+echo "Nada."
+Nada.

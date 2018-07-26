@@ -1,0 +1,24 @@
+<% if @users %>
+	 <p>Your are logged as : <%= @users %></p>	
+<% end %>
+
+
+<% if @rols %>
+	 <p>These are your roles: <%= @rols %></p>
+<% end %>
+
+
+<% if @per %>
+	<p>You have access to:</p>
+	<p><%= @per %> endpoints</p>
+<% end %>
+
+<% if @per == "developer"%>
+	<a href='http://localhost:4567/developer'>Developer</a><br>
+<% end %>
+<% if @per == "developer and customer"%>
+	<a href='http://localhost:4567/developer'>Developer</a><br>
+	<a href='http://localhost:4567/customer'>Customer</a><br>
+<% end %>
+<br>
+<a href='/logout'>Logout</a>

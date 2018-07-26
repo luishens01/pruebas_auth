@@ -1,0 +1,15 @@
+current directory: /home/luis/Escritorio/auth-tests/omniauth-tutorial/vendor/bundle/ruby/2.5.0/gems/debug_inspector-0.0.3/ext/debug_inspector
+/usr/bin/ruby2.5 -r ./siteconf20180619-2267-11y5caz.rb extconf.rb
+creating Makefile
+
+current directory: /home/luis/Escritorio/auth-tests/omniauth-tutorial/vendor/bundle/ruby/2.5.0/gems/debug_inspector-0.0.3/ext/debug_inspector
+make "DESTDIR=" clean
+
+current directory: /home/luis/Escritorio/auth-tests/omniauth-tutorial/vendor/bundle/ruby/2.5.0/gems/debug_inspector-0.0.3/ext/debug_inspector
+make "DESTDIR="
+compiling debug_inspector.c
+linking shared-object debug_inspector.so
+
+current directory: /home/luis/Escritorio/auth-tests/omniauth-tutorial/vendor/bundle/ruby/2.5.0/gems/debug_inspector-0.0.3/ext/debug_inspector
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 debug_inspector.so ./.gem.20180619-2267-1i59mv8
